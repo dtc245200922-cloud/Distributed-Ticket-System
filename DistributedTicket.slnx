@@ -1,0 +1,8 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/Ticket.Api/Ticket.Api.csproj" />
+    <Project Path="src/Ticket.Client/Ticket.Client.csproj" />
+    <Project Path="src/Ticket.Shared/Ticket.Shared.csproj" />
+    <Project Path="src/Ticket.Worker/Ticket.Worker.csproj" />
+  </Folder>
+</Solution>
