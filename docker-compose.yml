@@ -1,0 +1,15 @@
+
+services:
+  postgres:
+    image: postgres:17
+    environment:
+      POSTGRES_DB: ticket_db
+      POSTGRES_USER: ticket_user
+      POSTGRES_PASSWORD: local_dev_only
+    ports:
+      - "127.0.0.1:5544:5432"
+    volumes:
+      - ticket_postgres:/var/lib/postgresql/data
+
+volumes:
+  ticket_postgres:

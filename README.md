@@ -1,5 +1,5 @@
-# De tai 03 - He thong dat ve su kien phan tan
+# Tuan 2 - PostgreSQL va EF Core
 
-Tuan 1: Khoi tao .NET 10 solution va 4 project.
+Chay `docker compose up -d` roi `dotnet run --project src/Ticket.Api`.
 
-Chay: `dotnet build DistributedTicket.slnx`
+DatabaseSetup se tao du lieu mau neu database trong.
